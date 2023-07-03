@@ -1,3 +1,0 @@
-C:/Users/mqpow/CLionProjects/practicle1/cmake-build-debug/CMakeFiles/practicle1.dir
-C:/Users/mqpow/CLionProjects/practicle1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mqpow/CLionProjects/practicle1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
