@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    //створення змінних
+    // Створення змінних
     int t1, t2, t3;
     double total_time;
 
