@@ -29,6 +29,7 @@ int main() {
     printf("Enter number <=30: ");
     scanf("%d", &r);
 
+    // Перевірка коректності вводу
     if(r >= 30) {
         printf("Invalid value entered");
         return 0;
