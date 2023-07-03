@@ -1,21 +1,23 @@
 #include <stdio.h>
 
-int findGCD(int a, int b) {
+// Рекурсивна функція для знаходження найменшого стільного дільника
+int findDivider(int a, int b) {
     // База рекурсії
     if (b == 0) {
         return a;
     }
     
     // Використання рекурсії для більш читабельного вигляду
-    return findGCD(b, a % b);
+    return findDivider(b, a % b);
 }
 
+// Функція для знаходження найменшого стільного кратного
 int findLCM(int arr[], int n) {
     int lcm = arr[0];
 
     // Виконуємо операції над кожним числом масиву, і кожен раз присвоюємо нашій кінцевій змінній результат
     for (int i = 1; i < n; i++) {
-        lcm = (lcm * arr[i]) / findGCD(lcm, arr[i]);
+        lcm = (lcm * arr[i]) / findDivider(lcm, arr[i]);
     }
 
     return lcm;
