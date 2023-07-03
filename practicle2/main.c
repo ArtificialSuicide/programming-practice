@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int findGCD(int a, int b) {
-    if (b == 0)
+    // База рекурсії
+    if (b == 0) {
         return a;
-
+    }
+    
     // Використання рекурсії для більш читабельного вигляду
     return findGCD(b, a % b);
 }
