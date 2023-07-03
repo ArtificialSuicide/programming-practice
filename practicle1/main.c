@@ -9,7 +9,7 @@ int main() {
     printf("Enter three values: ");
     scanf("%d %d %d", &t1, &t2, &t3);
 
-    //перевірка коректності вводу
+    // Перевірка коректності вводу
     if (t1 > 10000 || t2 > 10000 || t3 > 10000) {
         printf("Invalid value entered");
         return 0;
