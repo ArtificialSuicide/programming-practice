@@ -39,6 +39,6 @@ int main() {
     printf("Enter the x and y values: ");
     scanf("%ld %ld", &x, &y);
 
-    // Виведення результат
+    // Виведення результату
     printf("Minimum number of steps: %ld\n", minSteps(x, y));
 }
