@@ -12,6 +12,6 @@ int main() {
     // Розрахунок довжини
     double length = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 
-    // Виведення результат
+    // Виведення результату
     printf("Vector length: %.6lf\n", length);
 }
