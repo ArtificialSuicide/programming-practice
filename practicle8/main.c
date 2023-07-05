@@ -45,6 +45,6 @@ int main() {
         return 0;
     }
 
-    // Виведення результат
+    // Виведення результату
     printf("The number of possible anagrams is: %llu\n", countAnagrams(str));
 }
