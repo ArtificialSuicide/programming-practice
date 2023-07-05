@@ -7,7 +7,7 @@ int main() {
     // Створення змінних
     int n;
 
-    // Зчитування вхідних даних
+    // 3читування вхідних даних
     printf("Enter the length of the sequence: ");
     scanf("%d", &n);
 
